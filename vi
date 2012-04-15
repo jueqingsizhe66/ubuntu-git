@@ -1,0 +1,8 @@
+1. 在非插入模式下，把光标移动到你要删除的字符上，然后按下 x
+
+要修复你的 backspace
+ :set backspace=indent,eol,start  （最好是放在 里）
+
+2. 按下 a
+
+3. :w! 
